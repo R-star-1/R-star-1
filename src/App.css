@@ -1,0 +1,20 @@
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+@media only screen and (max-width:412px) {
+  .Card{
+    width:100%;
+    margin:auto;
+  }
+}
